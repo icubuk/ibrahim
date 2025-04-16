@@ -1,0 +1,11 @@
+while True:
+    sayi = int(input("Lütfen pozitif bir tamsayı giriniz: "))
+    if sayi <= 0:
+        print("Dikkat! Lütfen pozitif bir tamsayı giriniz.")
+        continue
+    else: 
+        faktoryel = 1
+        for i in range(1, sayi+1):
+            faktoryel *= i
+        print("Faktöriyel", sayi,"!=", faktoryel)
+        break
