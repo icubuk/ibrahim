@@ -1,0 +1,5 @@
+sayi = int(input("Lütfen bir sayı giriniz: "))
+if sayi % 2 == 0:
+    print(sayi, "bir çift sayıdır.")
+else:
+    print(sayi, "bir tek sayıdır.")
