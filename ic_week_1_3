@@ -1,0 +1,6 @@
+bassayi = int(input("Başlangıç için bir sayı giriniz: "))
+bitsayi = int(input("Bitiş için bir sayı giriniz: "))
+
+while bassayi <= bitsayi:
+    print(bassayi, end=" ")
+    bassayi += 1
