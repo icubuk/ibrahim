@@ -1,0 +1,23 @@
+#week_1_2
+
+for ile 
+
+ksayi = int(input("Lütfen bir sayı giriniz: "))
+
+for i in range(1,ksayi+1):
+    if i % 2 == 0:
+        print(i, end=" ")    
+    else:
+        continue
+
+while ile
+
+ksayi = int(input("Lütfen bir sayı giriniz: "))
+i=0
+
+while i<=ksayi:
+    i += 1
+    if i % 2 == 0:
+        print(i, end=" ")
+    continue
+    break
