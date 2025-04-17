@@ -1,3 +1,5 @@
+print("\nweek_1_3 / Soru 3: Kullanıcıdan başlangıç ​​ve bitiş değerini alıp, bu değerler arasındaki tüm sayıları (bitiş değeri dahil) ekrana yazdıran bir Python kodu yazınız.")
+
 bassayi = int(input("Başlangıç için bir sayı giriniz: "))
 bitsayi = int(input("Bitiş için bir sayı giriniz: "))
 
