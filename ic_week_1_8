@@ -1,3 +1,5 @@
+print("\nweek_1_8 / Soru 8: Kullanıcıdan bir kelime alan ve bu kelimenin tersini ekrana yazdıran bir Python kodu yazın.")
+
 metin=input("Ters çevirmek için bir metin giriniz: ")
 tersmetin=metin[::-1]
 print("Ters çevrilmiş metin: ", tersmetin)
