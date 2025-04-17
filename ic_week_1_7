@@ -1,3 +1,5 @@
+print("\nweek_1_7 / Soru 7: Fibonacci dizisini hesaplayan ve sonucu belirli bir sınıra kadar sayı içeren bir liste olarak döndüren bir döngü nasıl oluşturulur?")
+
 kulsayi=int(input("Fibonacci dizisi için sayı giriniz: "))
 list=[0,1]
 for g in range(2,kulsayi):
