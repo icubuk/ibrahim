@@ -1,3 +1,5 @@
+print("\nweek_1_5 /Soru 5: Kullanıcıdan pozitif bir tam sayı girişi alan ve faktöriyelini hesaplayan bir Python programı yazın. Faktöriyel, bir sayının kendisi ile 1 arasındaki tüm pozitif tam sayıların çarpımıdır. Örneğin: kullanıcı 5 girdiyse, program aşağıdaki çıktıyı vermelidir: Kullanıcıdan bir sayı girin: 5 Faktöriyel: 12")
+
 while True:
     sayi = int(input("Lütfen pozitif bir tamsayı giriniz: "))
     if sayi <= 0:
