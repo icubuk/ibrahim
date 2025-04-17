@@ -1,3 +1,5 @@
+print("\nweek_1_hr_4 / finding-the-percentage/problem")
+
 if __name__ == '__main__':
     n = int(input())
     student_marks = {}
