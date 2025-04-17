@@ -1,0 +1,6 @@
+metin=input("Ters çevirmek için bir metin giriniz: ")
+tersmetin=metin[::-1]
+if metin==tersmetin:
+    print("Bu metin palindrom bir metindir.")
+else:
+    print("Bu metin palindrom bir metin değildir.")
