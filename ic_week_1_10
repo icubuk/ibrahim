@@ -1,3 +1,5 @@
+print("\nweek_1_10 / Soru 10: Kişinin kilo endeksini hesaplayan ve endeks değerine göre zayıf, kilolu veya fazla kilolu sonucunu döndüren kodu yazın. (Kilo endeksi hesaplaması için internete bakabilirsiniz) Bunun için kullanıcıdan kilo ve boy ölçülerini isteyin. Kilo endeksi 25'in altındaysa zayıf, 25-30 arasıysa normal, 30-40'ın üzerindeyse kilolusunuz. 40'ın üzerindeyse kilolusunuz.")
+
 kilo=int(input("Kilonuzu Kğ cinsinden giriniz: "))
 boy=float(input("Boyunuzu mertre cinsinden giriniz:(örn: 1.79) "))
 index=kilo/(boy**2)
