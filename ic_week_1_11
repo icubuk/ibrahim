@@ -1,0 +1,9 @@
+say1=int(input("Bir sayı giriniz: "))
+say2=int(input("Bir sayı giriniz: "))
+say3=int(input("Bir sayı giriniz: "))
+if say1>say2 and say1>say3:
+    print("En büyük sayı: ", say1)
+elif say2>say1 and say2>say3:
+    print("En büyük sayı: ", say2)
+else:
+    print("En büyük sayı: ", say3)
