@@ -1,3 +1,5 @@
+print("\nweek_1_9 / Soru 9: Kullanıcıdan bir kelime girişi alan ve bu kelimenin bir palindrom olup olmadığını (geriye doğru okunduğunda da aynı) kontrol eden bir döngü ve koşullu ifade kombinasyonu nasıl oluşturulur?")
+
 metin=input("Ters çevirmek için bir metin giriniz: ")
 tersmetin=metin[::-1]
 if metin==tersmetin:
