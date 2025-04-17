@@ -1,3 +1,5 @@
+print("\nweek_1_12 / Soru 12: Herhangi bir ders için bir öğrenciden Vize ve Final notlarını alın. Vize sınav notunun %40'ı ile Final notunun %60'ının toplamı yıl sonu ortalamasını verecektir. Ortalama 50'nin altındaysa ekranda FAILED (BAŞARISIZ) yazısı, 50 veya üzeriyse ekranda SUCCESSFUL (BAŞARILI) yazısı görünecektir. Bu yazdırma işlemi 4 derstir ve dersler birbiri ardına yazılacaktır.")
+
 Turkce_vize=int(input("Lütfen Türkçe vize notunuzu giriniz: "))
 Turkce_final=int(input("Lütfen Türkçe final notunuzu giriniz: "))
 Turkce_ortalama=(Turkce_vize*0.4)+(Turkce_final*0.6)
