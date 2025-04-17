@@ -1,0 +1,21 @@
+
+while True:
+    sayi = int(input("Birden büyük pozitif bir tamsayı giriniz: "))
+    if sayi <= 1:
+        print("Dikkat! Lütfen birden büyük pozitif bir tamsayı giriniz.")
+        continue
+    elif sayi == 2:
+        print("2 Asal sayıdır.")
+        break
+    else: 
+        asal = True
+        for i in range(2, sayi):
+            if sayi % i == 0:
+                asal = False
+                break
+    if asal==True:
+        print(sayi, "Asal sayıdır.")
+        break
+    else:
+        print(sayi, "Asal sayı değildir.")
+        break
