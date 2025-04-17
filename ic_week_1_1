@@ -1,4 +1,4 @@
-#week_1_1 / Soru 1: Ekrana 1'den 10'a kadar sayıları yazdıran bir Python kodu yazın.
+print("\nweek_1_1 / Soru 1: Ekrana 1'den 10'a kadar sayıları yazdıran bir Python kodu yazın.\n")
 
 for i in range(1, 11):
     print(i, end=' ')
