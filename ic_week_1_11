@@ -1,3 +1,5 @@
+print("\nweek_1_11 / Soru 11: Kullanıcının girdiği üç sayıdan en büyüğünü bulan bir Python programı nasıl yazılır?")
+
 say1=int(input("Bir sayı giriniz: "))
 say2=int(input("Bir sayı giriniz: "))
 say3=int(input("Bir sayı giriniz: "))
