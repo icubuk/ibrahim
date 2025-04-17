@@ -1,0 +1,36 @@
+Turkce_vize=int(input("Lütfen Türkçe vize notunuzu giriniz: "))
+Turkce_final=int(input("Lütfen Türkçe final notunuzu giriniz: "))
+Turkce_ortalama=(Turkce_vize*0.4)+(Turkce_final*0.6)
+
+Mat_vize=int(input("Lütfen Matematik vize notunuzu giriniz: "))
+Mat_final=int(input("Lütfen Matematik final notunuzu giriniz: "))
+Mat_ortalama=(Mat_vize*0.4)+(Mat_final*0.6)
+
+fiz_vize=int(input("Lütfen Fizik vize notunuzu giriniz: "))
+fiz_final=int(input("Lütfen Fizik final notunuzu giriniz: "))
+fiz_ortalama=(fiz_vize*0.4)+(fiz_final*0.6)
+
+kim_vize=int(input("Lütfen Kimya vize notunuzu giriniz: "))
+kim_final=int(input("Lütfen Kimya final notunuzu giriniz: "))
+kim_ortalama=(kim_vize*0.4)+(kim_final*0.6)
+
+if Turkce_ortalama >= 50:
+    print("Türkçe Dersi :", "SUCCESSFUL")
+else:
+    print("Türkçe Dersi :", "FAILED") 
+
+if Mat_ortalama >= 50:
+    print("Matematik Dersi :", "SUCCESSFUL")
+else:
+    print("Matematik Dersi :", "FAILED")
+
+if fiz_ortalama >= 50:
+    print("Fizik Dersi :", "SUCCESSFUL")
+else:
+    print("Fizik Dersi :", "FAILED")
+
+
+if kim_ortalama >= 50:
+    print("Kimya Dersi :", "SUCCESSFUL")
+else:
+    print("Kimya Dersi :", "FAILED")
