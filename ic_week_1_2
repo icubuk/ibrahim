@@ -1,6 +1,6 @@
-#week_1_2
+print("\nweek_1_2 / Soru 2: Kullanıcıdan bir sayı girişi alın ve ekrana bu sayıya kadar çift sayıları yazdıran bir Python programı yazın. Bunu önce 'for' ile sonra da 'while' döngüleriyle yapın.\n")
 
-for ile 
+print("\nfor ile")
 
 ksayi = int(input("Lütfen bir sayı giriniz: "))
 
