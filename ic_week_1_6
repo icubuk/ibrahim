@@ -1,3 +1,4 @@
+print("\nweek_1_6 / Soru 6: Kullanıcıdan bir sayı alan ve bu sayının asal olup olmadığını kontrol eden bir Python kodu yazın.")
 
 while True:
     sayi = int(input("Birden büyük pozitif bir tamsayı giriniz: "))
